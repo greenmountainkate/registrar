@@ -1,0 +1,5 @@
+CSC416,Intro to Programming - Java,001,3,jdyoung2,10,MW,0910,1100
+CSC116,Intro to Programming - Java,002,3,spbalik,10,MW,1120,1310
+ababsdasd asdfassd
+CSC216,Intro to Programming - Java,003,3,tbdimitr,10,TH,1120,1310
+CSC316,Intro to Programming - Java,004,3,jtking,10,TH,0910,1100

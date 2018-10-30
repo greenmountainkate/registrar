@@ -1,0 +1,15 @@
+4 bugs (Scary) (Normal Confidence) in RegistrationManager
+1) Read of unwritten field courseCatalog in edu.ncsu.csc216.pack_scheduler.manager.RegistrationManager.clearData()
+2) Read of unwritten field registrar in edu.ncsu.csc216.pack_scheduler.manager.RegistrationManager.login(String, String)
+3) Read of unwritten field studentDirectory in edu.ncsu.csc216.pack_scheduler.manager.RegistrationManager.clearData()
+4) Read of unwritten field studentDirectory in edu.ncsu.csc216.pack_scheduler.manager.RegistrationManager.login(String, String)
+
+Bugs above corrected by initializing in constructor.
+
+Reordered login() to check for Registrar login before Student login to avoid incorrect throw of IllegalArgumentException based on ID not in StudentDirectory
+
+line 145 in RegistrationManager had currentUser resetting to Registrar instead of null
+
+Added line to check if currentUser == null, to avoid new login while another User is currently logged into system.
+
+Missing error messages to alert User to issues with incorrect password or User id.  New IllegalArgumentException added to login() to fix.

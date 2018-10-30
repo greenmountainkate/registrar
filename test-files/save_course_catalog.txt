@@ -1,0 +1,3 @@
+CSC116,Programming Concepts - Java,001,4,sesmith5,150,TH,1330,1445
+CSC216,Programming Concepts - Java,001,4,sesmith5,150,TH,1330,1445
+CSC216,Programming Concepts - Java,002,4,sesmith5,150,TH,1330,1445
